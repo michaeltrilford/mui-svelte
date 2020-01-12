@@ -1,0 +1,117 @@
+/*  Type Scale
+=======================================================================================*/
+/* 6px, 7px, 8px, 9px, 10px, 11px, 12px, 14px, 16px, 18px, 21px, 24px, 36px, 48px, 60px, 72px, 84px, 96px, 108, 120, 132, 144, 156, 168, 180, 192 */
+
+:root {
+  /* Typography tokens */
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-size-link: 1.6rem;
+  --font-size-button: 1.6rem;
+  --font-size-text: 1.6rem;
+  --font-size-text-small: 1.4rem;
+  --font-size-text-tiny: 1.2rem;
+  --font-size-heading-tiny: 1.6rem;
+  --font-size-heading-x-small: 1.8rem;
+  --font-size-heading-small: 2.1rem;
+  --font-size-heading-medium: 2.4rem;
+  --font-size-heading-large: 3.6rem;
+  --font-size-heading-x-large: 4.8rem;
+  --font-size-heading-xx-large: 6rem;
+  --font-size-heading-xxx-large: 7.2rem;
+  --font-size-heading-xxxx-large: 8.4rem;
+  --font-size-heading-xxxxx-large: 9.6rem;
+  --root-font-size: 46.875%;
+
+  /* Palette tokens */
+  --dark-grey-palette: #333;
+  --gloom-grey-palette: #444;
+  --grey-palette: #555;
+  --light-grey-palette: #e5e5e5;
+  --black-palette: black;
+  --white-palette: #ffffff;
+  --white-palette-transparent-50: hsla(0, 0%, 100%, 0.5);
+  --red-palette: #f74e4e;
+
+  /* Radius */
+  --radius-clear: 0;
+  --radius-card: 6px;
+  --radius-alert: 4px;
+  --radius-badge: 4px;
+
+  /* Border */
+  --border-thin: 1px solid rgba(0, 0, 0, 0.1);
+  --border-thin-inverted: 1px solid hsla(0, 0%, 100%, 0.1);
+  --border-thick: 2px solid rgba(0, 0, 0, 0.1);
+  --border-thick-inverted: 2px solid hsla(0, 0%, 100%, 0.1);
+  --border-thin-dotted: 1px dotted rgba(0, 0, 0, 0.1);
+  --border-thin-ridge: thick ridge var(--dark-grey-palette);
+  --box-shadow-faux-border-bottom-thin-reverse: 0 0.1rem 0
+    var(--white-palette-transparent-50);
+  --box-shadow-faux-border-thin: 0 0 0 1px var(--light-grey-palette);
+  --box-shadow-faux-border-thin-inset: 0 0 0 1px var(--light-grey-palette);
+  --box-shadow-faux-border-top-thin: inset 0 -1px 0 0 var(--light-grey-palette);
+
+  --border-alert-important: 2px solid var(--yellow-palette);
+  --border-alert-success: 2px solid var(--green-palette);
+  --border-alert-warning: 2px solid var(--red-palette);
+
+  /* Spacing */
+  --spacing-clear: 0;
+  --spacing-xx-tiny: 0.4rem;
+  --spacing-x-tiny: 0.6rem;
+  --spacing-tiny: 0.8rem;
+  --spacing-x-small: 1.2rem;
+  --spacing-small: 1.6rem;
+  --spacing-medium: 2.4rem;
+  --spacing-x-medium: 3.6rem;
+  --spacing-large: 4.8rem;
+  --spacing-x-large: 6rem;
+  --spacing-xx-large: 9.6rem;
+
+  /* Line-height */
+  --line-height-reset: 1;
+  --line-height-text: 1.5;
+  --line-height-heading: 1.25;
+
+  /* Contextual tokens
+  =======================================================================================*/
+
+  /* Typography */
+  --text-body-color: var(--dark-grey-palette);
+  --selection-text-color: var(--white-palette);
+
+  --alert-warning-color: var(--red-palette);
+
+  /* Link object */
+  --link-color: var(--dark-grey-palette);
+  --link-color-reverse: var(--white-palette);
+
+  /* Element object */
+  --icon-color-reverse: var(--white-palette);
+
+  /* Code element */
+  --code-text-color: var(--white-palette);
+  --code-bg: var(--dark-grey-palette);
+
+  /* Button object */
+  --button-primary-background: var(--dark-grey-palette);
+  --button-primary-background-hover: var(--gloom-grey-palette);
+  --button-primary-background-active: var(--grey-palette);
+  --button-primary-color: var(--white-palette);
+  --button-secondary-background: var(--white-palette);
+  --button-warning-background: var(--red-palette);
+
+  /* Summary object */
+  --summary-background: var(--white-palette);
+
+  /* Mark object */
+  --mark-background: var(--dark-grey-palette);
+  --mark-color: var(--white-palette);
+
+  /* Table object */
+  --table-background: var(--white-palette);
+
+  /* Legend object */
+  --legend-background: var(--white-palette);
+}
